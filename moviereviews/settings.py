@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-grr-1!gq-q-wc)v8gr0tq0i(_-y=mg1-=duni3$%_$6=y4cftm
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['34.30.123.150']
 
 
 # Application definition
@@ -122,7 +122,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATICFILES_DIRS = [os.path.join(BASE_DIR, "static"), 'moviereviews/static',]
+STATICFILES_DIRS =(os.path.join(BASE_DIR,'moviereviews/static'), )
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
